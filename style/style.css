@@ -14,6 +14,11 @@
 .header_top img {
   width: 100%;
 }
+/* HAMBURGER ICON */
+#hamburger_icon {
+  color: #0069FF;
+}
+/* /HAMBURGER ICON */
 .header_top ul {
   display: inline-block;
 }
@@ -106,4 +111,41 @@
   background-position: left;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+
+
+@media screen and (min-width: 980px) and (max-width: 1199px) {
+
+  .header_jumbotron {
+   height: 600px;
+  }
+  .your_account {
+    height: 450px;
+  }
+  .jumbo_left p{
+    font-size: 25px;
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+
+  .header_jumbotron {
+   height: 900px;
+  }
+  .your_account {
+    width: 100%;
+  }
+  .jumbo_left h1 {
+    font-size: 40px;
+  }
+  .jumbo_left p {
+    font-size: 18px;
+  }
+  .your_account {
+    height: 455px;
+    margin-top: 5px;
+  }
+
 }
