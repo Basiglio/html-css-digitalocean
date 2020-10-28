@@ -24,6 +24,7 @@
   padding-right: 20px;
   list-style: none;
   line-height: 90px;
+  text-align: right;
 }
 .header_top a {
   text-decoration: none;
@@ -39,4 +40,17 @@
 }
 .header_top span {
   cursor: pointer;
+}
+/* JUMBOTRON */
+.header_jumbotron {
+ background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 450px;
+}
+.your_account {
+  width: 95%;
+  height: 350px;
+  background-color: white;
+  margin-top: 50px;
 }
