@@ -60,4 +60,15 @@
   height: 350px;
   background-color: white;
   margin-top: 50px;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+.your_account h2 {
+  font-size: 25px;
+  line-height: 40px;
+}
+.your_account span {
+  color: #0067FF;
+
 }
