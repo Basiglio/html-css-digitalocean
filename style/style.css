@@ -1,7 +1,7 @@
 /* DEBuG */
 [class*=col-] {
-  /* border: 1px solid black; */
-  /* min-height: 80px; */
+  /* border: 1px solid black;
+  min-height: 80px; */
 }
 
 /* HEADER */
@@ -17,6 +17,8 @@
 /* HAMBURGER ICON */
 #hamburger_icon {
   color: #0069FF;
+  font-size: 30px;
+  line-height: 80px;
 }
 /* /HAMBURGER ICON */
 .header_top ul {
@@ -112,6 +114,38 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+/* HEADER BOT */
+.header_bot {
+  text-align: center;
+  background-color: #F3F5F9;
+  padding-bottom: 30px;
+}
+.header_bot h3 {
+  color: grey;
+}
+.sponsor_hub {
+  margin: 30px 0;
+}
+.header_bot img {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+}
+.header_bot a {
+  color: #0067FF;
+}
+/* /HEADER */
+/* MAIN */
+/* MAIN FIRST */
+.main_first {
+  text-align: center;
+  padding-top: 30px;
+}
+.main_first p {
+  font-size: 22px;
+  color: grey;
+}
+
 
 
 
