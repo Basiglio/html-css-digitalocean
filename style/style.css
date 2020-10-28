@@ -1,6 +1,6 @@
 /* DEBuG */
 [class*=col-] {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   min-height: 80px;
 }
 
@@ -8,7 +8,10 @@
 /* NAVBAR */
 .header_top {
   height: 80px;
+  width: 100%;
   line-height: 80px;
+  border-bottom: 1px solid black;
+  position: fixed;
 }
 .header_top img {
   width: 100%;
@@ -20,8 +23,20 @@
   display: inline-block;
   padding-right: 20px;
   list-style: none;
+  line-height: 90px;
 }
 .header_top a {
   text-decoration: none;
   color: black;
+}
+.header_top .white_button {
+  border-color: #026cbb;
+  color: #026cbb;
+}
+.header_top .white_button:hover {
+  background-color: #026cbb;
+  color: white;
+}
+.header_top span {
+  cursor: pointer;
 }
