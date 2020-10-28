@@ -53,7 +53,7 @@
 }
 .jumbo_left p{
   font-size: 22px;
-  color: white;
+  color: lightgrey;
 }
 /* JUMBO RIGHT */
 .your_account {
@@ -100,4 +100,10 @@
 }
 .your_account p {
   margin-top: 10px;
+}
+.your_account .google_button {
+  background-image: url("https://cdn4.iconfinder.com/data/icons/bettericons/354/google-2-color-512.png");
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
