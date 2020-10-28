@@ -1,7 +1,7 @@
 /* DEBuG */
 [class*=col-] {
   /* border: 1px solid black; */
-  min-height: 80px;
+  /* min-height: 80px; */
 }
 
 /* HEADER */
@@ -10,8 +10,6 @@
   height: 80px;
   width: 100%;
   line-height: 80px;
-  border-bottom: 1px solid black;
-  position: fixed;
 }
 .header_top img {
   width: 100%;
@@ -23,8 +21,6 @@
   display: inline-block;
   padding-right: 20px;
   list-style: none;
-  line-height: 90px;
-  text-align: right;
 }
 .header_top a {
   text-decoration: none;
@@ -46,7 +42,18 @@
  background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
  background-repeat: no-repeat;
  background-size: cover;
- height: 450px;
+ height: 470px;
+}
+.jumbo_left{
+  margin-top: 50px;
+}
+.jumbo_left h1 {
+  font-size: 60px;
+  color: white;
+}
+.jumbo_left p{
+  font-size: 22px;
+  color: white;
 }
 .your_account {
   width: 95%;
