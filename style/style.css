@@ -41,7 +41,6 @@
 /* JUMBO LEFT */
 .header_jumbotron {
  background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
- background-repeat: no-repeat;
  background-size: cover;
  height: 470px;
 }
@@ -78,5 +77,27 @@
   width: 90%;
 }
 .your_account .form_submit input {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  height: 40px;
+  border-radius: 5px !important;
+}
+.your_account a {
+  width: 90%;
+}
+.your_account a:first-of-type {
+  width: 90%;
+  background-color: #5196fc;
+  color: white;
+  margin-bottom: 10px;
+}
+.your_account .blue_button:hover {
+  background-color: #026cbb;
+}
+.your_account a:last-child {
+  background-color: white;
+  color: #0067FF;
+  text-decoration: underline;
+}
+.your_account p {
+  margin-top: 10px;
 }
