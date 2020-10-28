@@ -1,1 +1,27 @@
+/* DEBuG */
+[class*=col-] {
+  border: 1px solid black;
+  min-height: 80px;
+}
 
+/* HEADER */
+/* NAVBAR */
+.header_top {
+  height: 80px;
+  line-height: 80px;
+}
+.header_top img {
+  width: 100%;
+}
+.header_top ul {
+  display: inline-block;
+}
+.header_top ul li {
+  display: inline-block;
+  padding-right: 20px;
+  list-style: none;
+}
+.header_top a {
+  text-decoration: none;
+  color: black;
+}
