@@ -138,13 +138,32 @@
 /* MAIN */
 /* MAIN FIRST */
 .main_first {
-  text-align: center;
   padding-top: 30px;
 }
-.main_first p {
+.paragraph  {
   font-size: 22px;
   color: grey;
 }
+.wrapper_60 {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 60px;
+  height: 500px;
+}
+.wrapper_60 #list_1 {
+  border-left: 1px solid grey;
+}
+#list_1 h4 {
+  color: grey;
+  margin-left: -20px;
+  padding-bottom: 20px;
+}
+.wrapper_60 p {
+  font-size: 15px;
+  color: grey;
+}
+
+
 
 
 
