@@ -1,7 +1,7 @@
 /* DEBuG */
 [class*=col-] {
-  /* border: 1px solid black; */
-  /* min-height: 50px; */
+  /* border: 1px solid black;
+  min-height: 50px; */
 }
 
 /* HEADER */
@@ -273,6 +273,12 @@
   .your_account {
     height: 455px;
     margin-top: 5px;
+  }
+  .wrapper_60 {
+    width: 100%;
+  }
+  .carousel {
+    width: 200px;
   }
 
 }
