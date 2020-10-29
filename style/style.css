@@ -242,16 +242,13 @@
 
 
 
-@media screen and (min-width: 980px) and (max-width: 1199px) {
+@media screen and (max-width: 1200px) {
 
   .header_jumbotron {
-   height: 600px;
+   height: 500px;
   }
   .your_account {
-    height: 450px;
-  }
-  .jumbo_left p{
-    font-size: 25px;
+    height: 100%;
   }
 
 }
@@ -259,7 +256,7 @@
 @media screen and (max-width: 991px) {
 
   .header_jumbotron {
-   height: 900px;
+   height: 500px;
   }
   .your_account {
     width: 100%;
@@ -278,7 +275,31 @@
     width: 100%;
   }
   .carousel {
-    width: 200px;
+    width: 400px;
   }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .header_jumbotron {
+   height: 800px;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+
+  .header_jumbotron {
+   height: 900px;
+  }
+  .your_account {
+    height: 400px;
+  }
+  .carousel {
+    width: 250px;
+  }
+
+
 
 }
