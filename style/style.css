@@ -200,6 +200,13 @@
 .carousel i {
   color: #026cbb;
 }
+/* MAIN THIRD */
+.main_third {
+  padding: 50px 0;
+}
+.main_third h2 {
+  margin-bottom: 60px;
+}
 
 
 
