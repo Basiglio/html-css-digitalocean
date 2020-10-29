@@ -1,8 +1,8 @@
 /* DEBuG */
-[class*=col-] {
-  /* border: 1px solid black;
-  min-height: 50px; */
-}
+/* [class*=col-] {
+  border: 1px solid black;
+  min-height: 50px;
+} */
 
 /* HEADER */
 /* NAVBAR */
@@ -47,8 +47,7 @@
 /* JUMBOTRON */
 /* JUMBO LEFT */
 .header_jumbotron {
- background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
- background-size: cover;
+ background-color: #0068FF;
  height: 470px;
 }
 .jumbo_left{
@@ -180,18 +179,18 @@
 .main_second img {
   width: 100%;
 }
-#arrow {
+.arrow {
   font-size: 30px;
   cursor: pointer;
 }
 .arrow_left {
   position: absolute;
-  top: 30%;
+  top: 35%;
   right: -10%;
 }
 .arrow_right {
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: -10%;
 }
 .carousel p {
@@ -217,8 +216,10 @@
   color: white;
 }
 .main_fourth_blue .little_row {
-  border-bottom: 1px solid white;
   position: relative;
+}
+.main_fourth_blue .little_row2{
+  padding-left: 100px;
 }
 .main_fourth_blue h5 {
   color: white;
@@ -235,7 +236,33 @@
   color: lightblue;
   line-height: 35px;
 }
-
+/* MAIN FIFTH */
+.main_fifth {
+  padding-top: 50px;
+  background-color: #F3F5F9;
+  height: 650px;
+  position: relative;
+}
+.main_fifth img {
+  width: 100%;
+}
+/* MAIN EIGHT */
+.main_sixth {
+  background-color: #0068FF;
+  padding: 50px 0;
+}
+.main_sixth h2 {
+  color: white;
+}
+.main_sixth a {
+  color: #026cbb;
+  margin-top: 20px;
+}
+/* FOOTER */
+footer {
+  height: 500px;
+  background-color: #01154D;
+}
 
 
 
