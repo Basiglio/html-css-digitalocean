@@ -138,7 +138,7 @@
 /* MAIN */
 /* MAIN FIRST */
 .main_first {
-  padding-top: 30px;
+  padding: 50px 0;
 }
 .paragraph  {
   font-size: 22px;
@@ -148,7 +148,6 @@
   width: 80%;
   margin: 0 auto;
   margin-top: 60px;
-  height: 500px;
 }
 .wrapper_60 #list_1 {
   border-left: 1px solid grey;
@@ -162,7 +161,26 @@
   font-size: 15px;
   color: grey;
 }
+/* MAIN SECOND */
+.main_second {
+  padding: 50px 0;
+  background-color: #F3F5F9;
+  height: 1000px;
+  border: 1px solid  black;
+  position: relative;
+}
+.carousel {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 
+}
+.main_second img {
+  width: 100%;
+}
 
 
 
