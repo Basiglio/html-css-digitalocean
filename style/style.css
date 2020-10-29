@@ -1,7 +1,7 @@
 /* DEBuG */
 [class*=col-] {
-  /* border: 1px solid black;
-  min-height: 80px; */
+  /* border: 1px solid black; */
+  /* min-height: 50px; */
 }
 
 /* HEADER */
@@ -207,6 +207,36 @@
 .main_third h2 {
   margin-bottom: 60px;
 }
+/* MAIN FORTH */
+.main_fourth_blue {
+  background-color: #0067FF;
+  padding: 50px 0;
+}
+.main_fourth_blue h2 {
+  margin-bottom: 60px;
+  color: white;
+}
+.main_fourth_blue .little_row {
+  border-bottom: 1px solid white;
+  position: relative;
+}
+.main_fourth_blue h5 {
+  color: white;
+  display: inline-block;
+  padding-right: 100px;
+}
+.main_fourth_blue span {
+  color: white;
+}
+.main_fourth_blue a  {
+  position: absolute;
+  right: 0%;
+  text-decoration: none;
+  color: lightblue;
+  line-height: 35px;
+}
+
+
 
 
 
