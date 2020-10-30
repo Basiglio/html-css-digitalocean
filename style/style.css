@@ -13,7 +13,7 @@ body {
   width: 100%;
   line-height: 80px;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   top: 0;
   right: 0;
   background-color: #F3F5F9;
@@ -93,8 +93,12 @@ body {
 .your_account .form_submit input {
   margin-bottom: 10px;
   height: 40px;
-  border-radius: 5px !important;
+  z-index: 1
 }
+.your_account .form_submit .border_submit {
+  border-radius: 5px;
+}
+
 .your_account a {
   width: 90%;
 }
@@ -339,7 +343,7 @@ footer a:hover {
 
 
 
-@media screen and (max-width: 1200px) {
+ @media screen and (max-width: 1200px) {
 
   .header_jumbotron {
    height: 500px;
