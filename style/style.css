@@ -3,7 +3,9 @@
   border: 1px solid black;
   min-height: 50px;
 } */
-
+body {
+  font-family: 'Lato', sans-serif;
+}
 /* HEADER */
 /* NAVBAR */
 .header_top {
@@ -52,7 +54,7 @@
 /* JUMBOTRON */
 /* JUMBO LEFT */
 .header_jumbotron {
- background-color: #0068FF;
+ background-image: linear-gradient(to top right, #FFFFFF -50%, #0168FF 20%, #01154D 120%);
  padding-top: 65px;
  height: 500px;
 }
@@ -144,6 +146,7 @@
 /* MAIN FIRST */
 .main_first {
   padding: 50px 0;
+  background-color: #F2F8FF;
 }
 .paragraph  {
   font-size: 22px;
@@ -208,13 +211,14 @@
 /* MAIN THIRD */
 .main_third {
   padding: 50px 0;
+  background-color: #F2F8FF;
 }
 .main_third h2 {
   margin-bottom: 60px;
 }
 /* MAIN FOURTH BLUE */
 .main_fourth_blue {
-  background-color: #0067FF;
+  background-image: linear-gradient(to top right, #01154D 0%, #0168FF 50%, #FFFFFF 120%);
   padding: 50px 0;
 }
 .main_fourth_blue ul {
@@ -347,6 +351,10 @@ footer a:hover {
   }
 
 }
+
+
+/* CHAT */
+
 
 @media screen and (max-width: 767px) {
 
