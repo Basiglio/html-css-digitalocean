@@ -40,6 +40,9 @@ body {
   text-decoration: none;
   color: black;
 }
+.header_top a:hover {
+  color: #1633FF;
+}
 .header_top .white_button {
   border-color: #026cbb;
   color: #026cbb;
@@ -326,12 +329,15 @@ footer a:hover {
   position: fixed;
   z-index: 1;
   bottom: 0;
-  right: 5%;
+  right: 2%;
 }
 .chat_box {
   background-color: white;
   border: 1px solid black;
   border-radius: 20px;
+}
+.button:hover {
+  background-color: yellow;
 }
 .button {
  font-size: 50px;
