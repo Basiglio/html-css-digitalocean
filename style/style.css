@@ -316,6 +316,28 @@ footer a:hover {
   text-decoration: none;
 }
 
+/* CHAT */
+/* .chat {
+  height: 100px;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  right: 5%;
+}
+.chat_box {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.button {
+ font-size: 50px;
+ color: white;
+ padding: 15px;
+ border-radius: 50%;
+ background-color: lightblue;
+} */
+
+
 
 @media screen and (max-width: 1200px) {
 
@@ -349,11 +371,8 @@ footer a:hover {
   .carousel {
     width: 400px;
   }
-
 }
 
-
-/* CHAT */
 
 
 @media screen and (max-width: 767px) {
