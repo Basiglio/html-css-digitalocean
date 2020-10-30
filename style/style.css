@@ -429,6 +429,20 @@ footer a:hover {
     left: -30px;
   }
 
+  .wrapper_60{
+    width: 100%;
+    margin-left: 0 auto;
+  }
+  #list_1 {
+    margin-bottom: 30px;
+  }
+  .deploy_box {
+    padding-left: 0px;
+  }
+  .deploy_box_master {
+    padding-left: 0px;
+  }
+
 
 
 }
