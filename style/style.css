@@ -10,6 +10,11 @@
   height: 80px;
   width: 100%;
   line-height: 80px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #F3F5F9;
 }
 .header_top img {
   width: 100%;
@@ -48,7 +53,8 @@
 /* JUMBO LEFT */
 .header_jumbotron {
  background-color: #0068FF;
- height: 470px;
+ padding-top: 65px;
+ height: 500px;
 }
 .jumbo_left{
   margin-top: 50px;
@@ -68,7 +74,7 @@
   background-color: white;
   margin-top: 50px;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 5px;
   border-radius: 10px;
 }
 .your_account h2 {
@@ -211,6 +217,14 @@
   background-color: #0067FF;
   padding: 50px 0;
 }
+.main_fourth_blue ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+.main_fourth_blue li {
+ border-bottom: 1px solid white;
+}
 .main_fourth_blue h2 {
   margin-bottom: 60px;
   color: white;
@@ -228,7 +242,7 @@
 }
 .main_fourth_blue a  {
   position: absolute;
-  right: 0%;
+  right: 4%;
   text-decoration: none;
   color: lightblue;
   line-height: 35px;
@@ -275,6 +289,9 @@ footer h6 {
   color: grey;
   cursor: pointer;
 }
+#social_hub i:hover {
+  color: #D0D3D7;
+}
 footer h4 {
   color: white;
 }
@@ -296,16 +313,11 @@ footer a:hover {
 }
 
 
-
-
-
-
-
-
 @media screen and (max-width: 1200px) {
 
   .header_jumbotron {
    height: 500px;
+   padding-top: 40px;
   }
   .your_account {
     height: 100%;
@@ -318,9 +330,6 @@ footer a:hover {
   .header_jumbotron {
    height: 500px;
   }
-  .your_account {
-    width: 100%;
-  }
   .jumbo_left h1 {
     font-size: 40px;
   }
@@ -328,8 +337,7 @@ footer a:hover {
     font-size: 18px;
   }
   .your_account {
-    height: 455px;
-    margin-top: 5px;
+    height: 80%;
   }
   .wrapper_60 {
     width: 100%;
@@ -343,21 +351,82 @@ footer a:hover {
 @media screen and (max-width: 767px) {
 
   .header_jumbotron {
+   height: 700px;
+  }
+  .your_account {
+    height: 80%;
+  }
+  #left_column {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 646px) {
+
+  .header_jumbotron {
+   height: 750px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+
+  .header_jumbotron {
    height: 800px;
   }
-
+  .arrow_left {
+    position: absolute;
+    top: 30%;
+    right: -30px;
+  }
+  .arrow_right {
+    position: absolute;
+    top: 30%;
+    left: -30px;
+  }
+  .carousel {
+    width: 300px;
+  }
 }
 
 @media screen and (max-width: 450px) {
-
+  /* JUMBOTRON */
   .header_jumbotron {
    height: 900px;
+   padding-top: 20px;
   }
   .your_account {
     height: 400px;
   }
+  /* CAROUSEL */
   .carousel {
-    width: 250px;
+    width: 240px;
+  }
+  .arrow_left {
+    position: absolute;
+    top: 35%;
+    right: -10%;
+  }
+  .arrow_right {
+    position: absolute;
+    top: 3%;
+    left: -30%;
+  }
+  /* MAIN FOURTH BLUE */
+  .main_fourth_blue h5 {
+    padding-right: 20px;
+  }
+  #left_column {
+    margin-bottom: 30px;
+  }
+  .arrow_left {
+    position: absolute;
+    top: 30%;
+    right: -30px;
+  }
+  .arrow_right {
+    position: absolute;
+    top: 30%;
+    left: -30px;
   }
 
 
