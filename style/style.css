@@ -206,7 +206,7 @@
 .main_third h2 {
   margin-bottom: 60px;
 }
-/* MAIN FORTH */
+/* MAIN FOURTH BLUE */
 .main_fourth_blue {
   background-color: #0067FF;
   padding: 50px 0;
@@ -217,9 +217,6 @@
 }
 .main_fourth_blue .little_row {
   position: relative;
-}
-.main_fourth_blue .little_row2{
-  padding-left: 100px;
 }
 .main_fourth_blue h5 {
   color: white;
@@ -260,9 +257,45 @@
 }
 /* FOOTER */
 footer {
-  height: 500px;
+  padding: 50px 0;
   background-color: #01154D;
 }
+footer h5 {
+  color: #D0D3D7;
+}
+footer h6 {
+  color: grey;
+}
+#social_hub li {
+  display: inline-block;
+  padding-right: 20px;
+}
+#social_hub i {
+  font-size: 20px;
+  color: grey;
+  cursor: pointer;
+}
+footer h4 {
+  color: white;
+}
+footer ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+footer li {
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+footer a {
+  color: grey;
+}
+footer a:hover {
+  color: #D0D3D7;
+  text-decoration: none;
+}
+
+
 
 
 
