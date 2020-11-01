@@ -474,4 +474,8 @@ footer a:hover {
   .deploy_box_master {
     padding-left: 0px;
   }
+  .main_fifth p {
+    font-size: 18px;
+
+  }
 }
