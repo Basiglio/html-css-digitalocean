@@ -252,7 +252,7 @@ h2 {
 .main_fourth_blue h5 {
   color: white;
   display: inline-block;
-  padding-right: 100px;
+  width: 150px;
 }
 .main_fourth_blue span {
   color: white;
@@ -342,6 +342,20 @@ footer a:hover {
 
 }
 
+@media screen and (max-width: 1024px) {
+
+  #left_column {
+    margin-bottom: 30px;
+  }
+  .main_fourth_blue h5 {
+   width: 250px;
+  }
+
+
+}
+
+
+
 @media screen and (max-width: 991px) {
 
   .header_jumbotron {
@@ -364,6 +378,9 @@ footer a:hover {
   }
   #left_column {
     margin-bottom: 30px;
+  }
+  .main_fourth_blue h5 {
+   width: 200px;
   }
 }
 
@@ -438,7 +455,7 @@ footer a:hover {
   }
   /* MAIN FOURTH BLUE */
   .main_fourth_blue h5 {
-    padding-right: 50px;
+   width: 80px;
   }
   #left_column {
     margin-bottom: 30px;
@@ -476,6 +493,5 @@ footer a:hover {
   }
   .main_fifth p {
     font-size: 18px;
-
   }
 }
